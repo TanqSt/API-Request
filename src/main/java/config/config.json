@@ -1,0 +1,5 @@
+{
+  "baseUrl": "https://dummy.restapiexample.com/",
+  "QA-env": "https://dummy.restapiexample.com/ApiTest"
+
+}
