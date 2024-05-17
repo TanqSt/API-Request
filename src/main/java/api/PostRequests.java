@@ -12,7 +12,7 @@ import org.apache.http.impl.client.HttpClientBuilder;
 
 public class PostRequests {
 
-    public static final String newEmpoyeeUrl = "https://dummy.restapiexample.com/create";
+    public static final String newEmpoyeeUrl = "https://dummy.restapiexample.com/api/v1/create";
     private static String responseCode;
     private static String responseBody;
     //private static String accessToken;
