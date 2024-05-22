@@ -51,7 +51,7 @@ public class PostRequests {
             // Extract and set the access token
             if (responseCode.contains("200") == true) {
                 JsonParser json = new JsonParser();
-                String authCode = json.getResponseCode(responseBody);
+                String body = json.getResponseCode(responseBody);
                 //authMessage = json.getAuthMessage(responseBody);
                 //if (authCode.equals("0")) {
                 //accessToken = json.getAccessToken(responseBody);
